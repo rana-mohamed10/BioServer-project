@@ -1,0 +1,59 @@
+title{
+    color: white;
+    font-size: 80px;
+    font-family: monospace;
+
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
+    font-family: monospace;
+}
+
+form{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin-left: 30px;
+	margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body {
+	min-height: 90vh;
+	font-family: Arial, sans-serif;
+  background: url(5.jpg) no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+}
+
+button {
+    width: 178px;
+    height: 60px;
+    background: white;
+    color: #022e52;
+    border: 2px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #022e52;
+    font-weight: 540;
+    margin-left: 40px;
+    transition: .5s;
+    
+  }
+  
+  button:hover {
+    background: transparent;
+    color: white;
+  }
